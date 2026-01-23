@@ -1,6 +1,6 @@
 {
   "name": "@thiagomoraesn13/design-tokens",
-  "version": "0.0.5",
+  "version": "0.0.3",
   "private": false,
   "type": "module",
   "files": [
@@ -8,8 +8,9 @@
   ],
   "exports": {
     "./index.css": "./dist/index.css",
-    "./themes/noverde.css": "./dist/themes/noverde/index.css",
-    "./themes/dotz.css": "./dist/themes/dotz/index.css"
+    "./tokens/index.css": "./dist/tokens/index.css",
+    "./themes/noverde/index.css": "./dist/themes/noverde/index.css",
+    "./themes/dotz/index.css": "./dist/themes/dotz/index.css"
   },
   "scripts": {
     "build": "vite build",
