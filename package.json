@@ -6,6 +6,9 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    "./index.css": "./dist/index.css"
+  },
   "scripts": {
     "build": "vite build",
     "publish:pkg": "yarn build && npm publish"
