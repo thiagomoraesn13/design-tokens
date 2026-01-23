@@ -1,0 +1,21 @@
+{
+  "name": "@thiagomoraesn13/design-tokens",
+  "version": "0.0.1",
+  "private": false,
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "publish:pkg": "yarn build && npm publish"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1",
+    "typescript": "^5.9.3",
+    "vite-plugin-static-copy": "^1.0.6"
+  }
+}

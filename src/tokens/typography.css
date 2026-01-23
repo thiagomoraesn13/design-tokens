@@ -1,0 +1,10 @@
+@theme {
+  --text-mini: 0.75rem;  /* 12px */
+  --text-small: 0.875rem; /* 14px */
+  --text-body: 1rem;   /* 16px */
+  --text-h1-mobile: 1.5rem;   /* 24px */
+  --text-h3: 1.25rem;  /* 20px */
+  --text-h2: 1.875rem; /* 30px */
+  --text-h1: 2.25rem; /* 36px */
+  --text-display: 3rem;    /* 48px */
+}
