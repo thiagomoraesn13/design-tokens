@@ -1,6 +1,4 @@
 /* 1) tokens base (tipografia, spacing, etc) */
 @import "./tokens/index.css";
 
-/* 2) tema default (ex: noverde) */
-/* @import "./themes/noverde/index.css";
- */
+@import "./themes/noverde/index.css";
