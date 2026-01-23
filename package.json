@@ -7,7 +7,9 @@
     "dist"
   ],
   "exports": {
-    "./index.css": "./dist/index.css"
+    "./index.css": "./dist/index.css",
+    "./themes/noverde.css": "./dist/themes/noverde/index.css",
+    "./themes/dotz.css": "./dist/themes/dotz/index.css"
   },
   "scripts": {
     "build": "vite build",
