@@ -20,9 +20,9 @@ export default defineConfig({
   plugins: [
     viteStaticCopy({
       targets: [
-        { src: "src/index.css", dest: "." },
         { src: "src/tokens/**/*", dest: "tokens" },
-        { src: "src/themes/**/*", dest: "themes" },
+        { src: "src/themes/**/*", dest: "themes" }, // <- isso já leva assets junto
+        { src: "src/index.css", dest: "." },
       ],
     }),
   ],
