@@ -7,8 +7,13 @@
     "dist"
   ],
   "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
     "./index.css": "./dist/index.css",
-    "./dist/*": "./dist/*"
+    "./themes/*": "./dist/themes/*",
+    "./tokens/*": "./dist/tokens/*"
   },
   "scripts": {
     "build": "vite build",
