@@ -1,43 +1,44 @@
 @keyframes loadingState1 {
-  0% { opacity: 1; }
-  50% { opacity: 0.64; }
-  100% { opacity: 0.32; }
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.2;
+    transform: scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes loadingState2 {
-  0% { opacity: 0.64; }
-  50% { opacity: 1; }
-  100% { opacity: 0.64; }
+  0% {
+    opacity: 0.35;
+    transform: scale(0.7);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.35;
+    transform: scale(0.7);
+  }
 }
 
 @keyframes loadingState3 {
-  0% { opacity: 0.32; }
-  50% { opacity: 1; }
-  100% { opacity: 0.64; }
-}
-
-@layer utilities {
-  @keyframes logoAnim {
-    to {
-      transform: translateY(-50%);
-      top: 50%;
-      opacity: 1;
-    }
+  0% {
+    opacity: 0.2;
+    transform: scale(0.6);
   }
-
-  @keyframes letteringAnim {
-    to {
-      transform: translateY(50%);
-      bottom: 50%;
-      opacity: 1;
-    }
+  50% {
+    opacity: 0.35;
+    transform: scale(0.7);
   }
-
-  .animate-logoAnim {
-    animation: logoAnim 0.4s ease-out forwards;
-  }
-
-  .animate-letteringAnim {
-    animation: letteringAnim 0.4s ease-out forwards;
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
 }
