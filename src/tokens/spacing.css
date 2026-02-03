@@ -1,4 +1,6 @@
 @theme {
+  --spacing: 4px; /* 👈 ESSENCIAL pro Tailwind v4 (w-*, h-*, gap-*, p-*) */
+
   --spacing-unit: 4px;
 
   --spacing-xxs: calc(var(--spacing-unit) * 1);
