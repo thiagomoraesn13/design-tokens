@@ -12,7 +12,8 @@
       "default": "./dist/index.js"
     },
     "./index.css": "./dist/index.css",
-    "./themes/*": "./dist/themes/*",
+    "./themes/noverde/index.css": "./dist/themes/noverde/index.css",
+    "./themes/noverde/colors.css": "./dist/themes/noverde/colors.css",
     "./tokens/*": "./dist/tokens/*"
   },
   "scripts": {
