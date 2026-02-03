@@ -1,14 +1,16 @@
 @theme {
-  --spacing: 4px; /* 👈 ESSENCIAL pro Tailwind v4 (w-*, h-*, gap-*, p-*) */
+  /* 🔑 Tailwind v4 base spacing */
+  --tw-spacing: 4px;
 
+  /* seus tokens continuam iguais */
   --spacing-unit: 4px;
 
   --spacing-xxs: calc(var(--spacing-unit) * 1);
-  --spacing-xs: calc(var(--spacing-unit) * 2);
-  --spacing-sm: calc(var(--spacing-unit) * 3);
-  --spacing-md: calc(var(--spacing-unit) * 4);
-  --spacing-lg: calc(var(--spacing-unit) * 6);
-  --spacing-xl: calc(var(--spacing-unit) * 8);
+  --spacing-xs:  calc(var(--spacing-unit) * 2);
+  --spacing-sm:  calc(var(--spacing-unit) * 3);
+  --spacing-md:  calc(var(--spacing-unit) * 4);
+  --spacing-lg:  calc(var(--spacing-unit) * 6);
+  --spacing-xl:  calc(var(--spacing-unit) * 8);
   --spacing-2xl: calc(var(--spacing-unit) * 12);
   --spacing-3xl: calc(var(--spacing-unit) * 16);
 
