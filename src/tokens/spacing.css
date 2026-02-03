@@ -1,7 +1,7 @@
 @theme {
   /* 🔑 Tailwind v4 base spacing */
-  --tw-spacing: 4px;
-
+  /*   --tw-spacing: 4px;
+ */
   /* seus tokens continuam iguais */
   --spacing-unit: 4px;
 
@@ -17,8 +17,8 @@
   --spacing-safe: calc(env(safe-area-inset-bottom) + 3rem);
 }
 
-@layer base {
+/* @layer base {
   :root {
     --tw-spacing: var(--spacing-unit);
   }
-}
+} */
