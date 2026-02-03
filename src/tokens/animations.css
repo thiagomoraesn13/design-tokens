@@ -7,23 +7,21 @@
     opacity: 0.35;
   }
 }
-
 @keyframes loadingState2 {
   0%,
   100% {
-    opacity: 0.55;
+    opacity: 0.6;
   }
   50% {
     opacity: 1;
   }
 }
-
 @keyframes loadingState3 {
   0%,
   100% {
     opacity: 0.35;
   }
   50% {
-    opacity: 0.55;
+    opacity: 0.6;
   }
 }
