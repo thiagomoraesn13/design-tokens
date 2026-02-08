@@ -12,13 +12,17 @@
       "import": "./dist/index.js",
       "default": "./dist/index.js"
     },
+    "./tokens/*": {
+      "types": "./dist/tokens/*.d.ts",
+      "import": "./dist/tokens/*.js",
+      "default": "./dist/tokens/*.js"
+    },
     "./index.css": "./dist/index.css",
+    "./utilities.css": "./dist/utilities.css",
     "./themes/noverde/index.css": "./dist/themes/noverde/index.css",
     "./themes/noverde/colors.css": "./dist/themes/noverde/colors.css",
     "./themes/dotz/index.css": "./dist/themes/dotz/index.css",
-    "./themes/dotz/colors.css": "./dist/themes/dotz/colors.css",
-    "./tokens/*": "./dist/tokens/*",
-    "./utilities.css": "./dist/utilities.css"
+    "./themes/dotz/colors.css": "./dist/themes/dotz/colors.css"
   },
   "scripts": {
     "build:tokens-js": "tsc -p tsconfig.tokens.json",
