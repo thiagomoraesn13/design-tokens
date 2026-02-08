@@ -8,7 +8,7 @@
     "allowImportingTsExtensions": false,
 
     "declaration": true,
-    "declarationMap": false,
+    "declarationMap": true,
     "emitDeclarationOnly": true
   },
   "include": ["src/index.ts", "src/tokens/**/*.ts"]
