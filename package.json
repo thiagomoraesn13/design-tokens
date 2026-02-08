@@ -16,11 +16,14 @@
     "./themes/noverde/colors.css": "./dist/themes/noverde/colors.css",
     "./themes/dotz/index.css": "./dist/themes/dotz/index.css",
     "./themes/dotz/colors.css": "./dist/themes/dotz/colors.css",
-    "./tokens/*": "./dist/tokens/*"
+    "./tokens/*": "./dist/tokens/*",
+    "./utilities.css": "./dist/utilities.css"
   },
   "scripts": {
-    "build": "vite build && tsc -p tsconfig.tokens.json",
-    "publish:pkg": "yarn build && npm publish"
+    "build:utilities": "node scripts/gen-utilities.mjs",
+    "build": "vite build && tsc -p tsconfig.tokens.json && yarn build:utilities",
+    "prepublishOnly": "yarn build",
+    "publish:pkg": "npm publish"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
