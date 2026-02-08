@@ -2,7 +2,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "rootDir": "src",
-    "outDir": "dist-tmp",
+    "outDir": "dist",
 
     "noEmit": false,
     "allowImportingTsExtensions": false,
@@ -10,5 +10,5 @@
     "declaration": false,
     "declarationMap": false
   },
-  "include": ["src/tokens/**/*.ts"]
+  "include": ["src/index.ts", "src/tokens/**/*.ts"]
 }

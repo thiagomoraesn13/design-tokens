@@ -48,3 +48,5 @@ export const colorTokens = {
   "gradient-start": true,
   "gradient-end": true,
 };
+
+export type ColorToken = keyof typeof colorTokens;
