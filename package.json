@@ -29,7 +29,7 @@
     "build:utilities": "node scripts/gen-utilities.mjs",
     "build:entry": "tsc -p tsconfig.entry.dist.json",
     "build:types": "tsc -p tsconfig.build.json",
-    "build": "vite build && yarn build:utilities && yarn build:entry && yarn build:types",
+    "build": "yarn build:tokens-js && vite build && yarn build:utilities && yarn build:entry && yarn build:types",
     "prepublishOnly": "yarn build",
     "publish:pkg": "npm publish"
   },
