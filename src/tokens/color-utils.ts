@@ -9,7 +9,7 @@ export function bg(token: ColorToken) {
 }
 
 export function textColor(token: ColorToken) {
-  return `text-[color:var(--color-${token})]`;
+  return `text-${token}`;
 }
 
 export const TYPO = {
