@@ -1,0 +1,65 @@
+@utility typography-display {
+  font-size: var(--text-display);
+  line-height: var(--text-display--line-height);
+  letter-spacing: var(--text-display--letter-spacing);
+
+  @media (min-width: 1024px) {
+    font-size: var(--text-display-desktop);
+    line-height: var(--text-display-desktop--line-height);
+    letter-spacing: var(--text-display-desktop--letter-spacing);
+  }
+}
+
+@utility typography-h1 {
+  font-size: var(--text-h1);
+  line-height: var(--text-h1--line-height);
+  letter-spacing: var(--text-h1--letter-spacing);
+
+  @media (min-width: 1024px) {
+    font-size: var(--text-h1-desktop);
+    line-height: var(--text-h1-desktop--line-height);
+    letter-spacing: var(--text-h1-desktop--letter-spacing);
+  }
+}
+
+@utility typography-h2 {
+  font-size: var(--text-h2);
+  line-height: var(--text-h2--line-height);
+  letter-spacing: var(--text-h2--letter-spacing);
+
+  @media (min-width: 1024px) {
+    font-size: var(--text-h2-desktop);
+    line-height: var(--text-h2-desktop--line-height);
+    letter-spacing: var(--text-h2-desktop--letter-spacing);
+  }
+}
+
+@utility typography-h3 {
+  font-size: var(--text-h3);
+  line-height: var(--text-h3--line-height);
+  letter-spacing: var(--text-h3--letter-spacing);
+
+  @media (min-width: 1024px) {
+    font-size: var(--text-h3-desktop);
+    line-height: var(--text-h3-desktop--line-height);
+    letter-spacing: var(--text-h3-desktop--letter-spacing);
+  }
+}
+
+@utility typography-body {
+  font-size: var(--text-body);
+  line-height: var(--text-body--line-height);
+  letter-spacing: var(--text-body--letter-spacing);
+}
+
+@utility typography-small {
+  font-size: var(--text-small);
+  line-height: var(--text-small--line-height);
+  letter-spacing: var(--text-small--letter-spacing);
+}
+
+@utility typography-mini {
+  font-size: var(--text-mini);
+  line-height: var(--text-mini--line-height);
+  letter-spacing: var(--text-mini--letter-spacing);
+}
